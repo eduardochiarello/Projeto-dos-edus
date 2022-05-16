@@ -22,5 +22,13 @@ int main(void)
 
     printf("%i:%i:%i\n", *agora.p_horas, *agora.p_minutos, *agora.p_segundos);
 
+    void mensagem(void);
+    mensagem();
+
     return 0;
+}
+
+void mensagem(void)
+{
+    printf("Ola catatau\n");
 }
